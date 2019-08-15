@@ -1,4 +1,6 @@
 class Post < ActiveRecord::Base
+  
   belongs_to :author
-  belong
+  belongs_to :category
+  
 end
